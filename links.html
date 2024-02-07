@@ -7,9 +7,16 @@
     <title>Link e Ancoras</title>
 </head>
 
-<body>
+<body style="background-image: url(images/paper.jpg) ; background-repeat: no-repeat, repeat; background-size: cover;">
+
+    <p id="indice">Indice.</p>
+    <a href="#inicio_pagina">Inicio</a><br>
+    <a href="#imagens">Imagens</a><br>
+    <a href="#final">final da página</a><br>
 
     <h1>Links em HTML</h1>
+
+    <h2 id="inicio_pagina">Início</h2>
 
     <p>Os links em HMTL podem apontar para uma página web, um arquivo de imagem, etc.</p><br>
 
@@ -17,6 +24,36 @@
         Caso contrário irá fazer o download do arquivo.</p>
 
     <p>Exemplo de link para uma página web.</p>
-</body>
+    <a href="http://www.google.com.br">Clique aqui para acessar na mesma janela. (Absoluto)</a>
 
+    <br><br>
+    <p>Exemplo de link para uma página web.</p>
+    <a href="http://www.google.com.br" target="_blank">Clique aqui para acessar em uma nova janela. (Absoluto)</a>
+
+    <br><br>
+    <p>Exemplo de link relativo. (tabelas)</p>
+    <a href="tabelas.html" target="_blank">Clique aqui para abrir.</a>
+
+    <h2 id="imagens">Imagem</h2>
+
+    <br><br>
+    <p>Exemplo de link para imagem</p>
+    <a href="images/JoaoFrango.jpeg" target="_blank">Clique aqui para abrir a imagem.</a>
+
+    <br><br>
+    <p>Exemplo de link para imagem.</p>
+    <a href="files/JoaoFrango.dat" target="_blank">Clique aqui para fazer o download.</a>
+    
+    <br><br>
+    <p>Exemplo de link para E-mail.</p>
+    <a href="mailto:kauegallegosouza@gmail.com" target="_blank">Clique aqui para enviar o email.</a>
+
+    <h2 id="final">Final da página</h2>
+
+    <br><br>
+    <p>Exemplo de link para telefone</p>
+    <a href="tel:+5511955502170" target="_blank">Clique aqui para chamar.</a><br><br>
+
+    <a href="#indice">Voltar ao indice</a>
+</body>
 </html>
