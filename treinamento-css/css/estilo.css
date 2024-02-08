@@ -1,0 +1,30 @@
+/*Formatação geral dentro do BODY*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue ;
+}
+
+/*Formatação direto no elemento HTML*/
+h1{
+    color: red;
+    font-size: 30px;
+}
+
+/*Formatação por classes*/
+.lista{
+
+}
+
+/*Formatação por id*/
+#sub-tituto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.texto-vermelho{
+    color: red !important;
+}
+
+.texto-laranja{
+    color: orange !important;
+}
