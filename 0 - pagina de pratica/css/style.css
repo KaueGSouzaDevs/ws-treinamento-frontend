@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #fff;
+    text-align: center;
+}
+
+.sign-in{
+    display: inline-block;
+    margin-top: 10%;
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0, 109, 177, 0.77) 5%, #81fff2);
+    box-shadow: 0px 0px 15px rgba(0, 1, 69, 0.5);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 60px;
+    z-index: -2;
+}
+
+.second-bg{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background: #4cb7ff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 60px;
+    border-top-left-radius: 1500px;
+    border-top-right-radius: 1500px;
+    border-bottom-left-radius: 3000px;
+    border-bottom-right-radius: 3000px;
+    z-index: -1;
+}
+
+.titulo-signin{
+    margin-top: 50px;
+}
+
+.links-signin{
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.links-signin a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.inputs li{
+    list-style: none;
+    margin-top: 16px;
+}   
+
+.inputs input{
+    margin-right: 35px;
+    height: 25px;
+    width: 200px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    color: rgb(46, 46, 46);
+    border: 1px solid rgb(0, 172, 175);     
+    box-shadow: 0 0 10px rgba(0, 20, 148, 0.5);
+}
+
+.inputs button{
+    margin-right: 35px;
+    background: rgba(0, 0, 0, 0.90);
+    border-radius: 15px;
+    color: white;
+
+}
