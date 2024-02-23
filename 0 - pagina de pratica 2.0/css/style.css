@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 450px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        box-sizing: border-box;
+        font-family: "Tilt", sans-serif;
+        background: transparent;
+    }
+
+    #bg-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;            
+        height: 100%;
+        z-index: -3;
+        object-fit: cover;
+    }
+
+    .sign-in{
+        background: #797979a1;
+        border: 1px solid rgba(143, 143, 143, 0.87);
+        text-align: center;
+        width: 373px;
+        height: 380px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        margin-left: -1px;
+        margin-top: 18px;
+        position: relative;
+    }
+
+    #bg-icon-user{
+        background-color: #ffffff88;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 1px solid rgb(163, 163, 163);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+        margin: 0px 37% ;
+    }
+
+    .icon-signin{
+        padding: 15px;
+        font-size: 40px;
+        color: rgb(2, 2, 2);
+    }
+
+    .help{
+        display: inline-flexbox;
+        justify-content: right;
+        text-align: right;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+
+    .help a{
+        color: rgba(255, 252, 252, 0.842);
+        text-decoration: none;
+    }
+
+    .links-signin{
+        margin-top: 40px;
+    }
+
+    .links-signin a{
+        font-size: 19px;
+        text-decoration: none;
+        color: black;
+        padding: 0px 5px;
+    }
+
+    .inputs-button ul{
+        margin-top: 10px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .inputs-button li{
+        padding: 5px 0px;
+    }
+
+    .inputs-button input[type="text"], input[type="password"]{
+        width: 245px;
+        height: 30px;
+        padding-left: 10px;
+        background: #ffffff93;
+        border: 1px solid #5a5a5a;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    }
+
+    .inputs-button button{
+        background-color: rgba(0, 0, 0, 0.747);
+        color: #ffffffb2;
+        border-radius: 7px;
+        border: 1px solid rgb(0, 0, 0);
+        font-size: 15px;
+        width: 60px;
+    }
+
+    .inputs-button button:hover{
+        background-color: #fff;
+        color: black;
+        transition: all  0.5s ease;
+    }
+
+    .forget-password{
+        margin-top: 8px;
+        font-size: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+}
