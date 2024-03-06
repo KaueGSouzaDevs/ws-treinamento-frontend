@@ -1,0 +1,9 @@
+:root{
+    --cor-primaria: #ff0000;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: var(--cor-primaria);
+}
